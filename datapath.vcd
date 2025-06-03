@@ -1,0 +1,338 @@
+$date
+	Sun Jun 01 16:59:39 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module datapathTestbench $end
+$var reg 1 ! _clock $end
+$var reg 1 " _reset $end
+$var integer 32 # i [31:0] $end
+$var integer 32 $ j [31:0] $end
+$scope module datapathInst $end
+$var wire 1 ! clock $end
+$var wire 1 " reset $end
+$var wire 4 % aluControlOutDP [3:0] $end
+$var wire 1 & ZeroResultDP $end
+$var wire 32 ' WriteDataDP [31:0] $end
+$var wire 1 ( RegWriteDP $end
+$var wire 32 ) ReadDataDMOutDP [31:0] $end
+$var wire 32 * ReadData2DP [31:0] $end
+$var wire 32 + ReadData1DP [31:0] $end
+$var wire 32 , PCOutDP [31:0] $end
+$var wire 32 - PCInDP [31:0] $end
+$var wire 32 . MuxOutAluInDP [31:0] $end
+$var wire 1 / MemtoRegDP $end
+$var wire 1 0 MemWriteDP $end
+$var wire 1 1 MemReadDP $end
+$var wire 32 2 InsMemOutDP [31:0] $end
+$var wire 32 3 ImmGenOutDP [31:0] $end
+$var wire 1 4 BranchDP $end
+$var wire 32 5 AluResultDP [31:0] $end
+$var wire 32 6 Add2OutDP [31:0] $end
+$var wire 32 7 Add1OutDP [31:0] $end
+$var wire 1 8 ALUSrcDP $end
+$var wire 2 9 ALUOpDP [1:0] $end
+$scope module add4DP $end
+$var wire 32 : value2 [31:0] $end
+$var wire 32 ; value1 [31:0] $end
+$var wire 32 < out [31:0] $end
+$upscope $end
+$scope module addBranchDP $end
+$var wire 32 = value2 [31:0] $end
+$var wire 32 > value1 [31:0] $end
+$var wire 32 ? out [31:0] $end
+$upscope $end
+$scope module aluControlDP $end
+$var wire 3 @ funct3 [2:0] $end
+$var wire 2 A ALUOp [1:0] $end
+$var reg 4 B aluControlreg [3:0] $end
+$upscope $end
+$scope module aluDP $end
+$var wire 4 C aluControl [3:0] $end
+$var wire 1 & aluZero $end
+$var wire 32 D aluInput2 [31:0] $end
+$var wire 32 E aluInput1 [31:0] $end
+$var reg 32 F aluResult [31:0] $end
+$upscope $end
+$scope module controlDP $end
+$var wire 7 G opcode [6:0] $end
+$var reg 2 H ALUOp [1:0] $end
+$var reg 1 8 ALUSrc $end
+$var reg 1 4 Branch $end
+$var reg 1 1 MemRead $end
+$var reg 1 0 MemWrite $end
+$var reg 1 / MemtoReg $end
+$var reg 1 ( RegWrite $end
+$var reg 8 I outControl [7:0] $end
+$upscope $end
+$scope module dataMemoryDP $end
+$var wire 32 J address [31:0] $end
+$var wire 1 ! clock $end
+$var wire 1 1 memRead $end
+$var wire 1 0 memWrite $end
+$var wire 1 " reset $end
+$var wire 32 K writeData [31:0] $end
+$var reg 32 L readData [31:0] $end
+$var reg 32 M temp [31:0] $end
+$upscope $end
+$scope module immGenDP $end
+$var wire 32 N instruction [31:0] $end
+$var reg 32 O imm [31:0] $end
+$upscope $end
+$scope module instructionMemDP $end
+$var wire 1 ! clock $end
+$var wire 32 P address [31:0] $end
+$var reg 32 Q current_instruction [31:0] $end
+$upscope $end
+$scope module muxALUDP $end
+$var wire 1 8 crtlSignal $end
+$var wire 32 R value1 [31:0] $end
+$var wire 32 S value2 [31:0] $end
+$var wire 32 T out [31:0] $end
+$upscope $end
+$scope module muxBranchDP $end
+$var wire 1 U crtlSignal $end
+$var wire 32 V value1 [31:0] $end
+$var wire 32 W value2 [31:0] $end
+$var wire 32 X out [31:0] $end
+$upscope $end
+$scope module muxDMDP $end
+$var wire 1 / crtlSignal $end
+$var wire 32 Y value1 [31:0] $end
+$var wire 32 Z value2 [31:0] $end
+$var wire 32 [ out [31:0] $end
+$upscope $end
+$scope module pcDP $end
+$var wire 1 ! clock $end
+$var wire 32 \ pcIn [31:0] $end
+$var wire 1 " reset $end
+$var reg 32 ] pcOut [31:0] $end
+$upscope $end
+$scope module regMemoryDP $end
+$var wire 5 ^ readReg1 [4:0] $end
+$var wire 5 _ readReg2 [4:0] $end
+$var wire 1 ( regWrite $end
+$var wire 32 ` writeData [31:0] $end
+$var wire 5 a writeReg [4:0] $end
+$var reg 32 b readData1 [31:0] $end
+$var reg 32 c readData2 [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx c
+bx b
+bx a
+bx `
+bx _
+bx ^
+b0 ]
+bx \
+bx [
+bx Z
+bx Y
+bx X
+b100 W
+bx V
+xU
+bx T
+bx S
+bx R
+bx Q
+b0 P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx J
+bx I
+bx H
+bx G
+bx F
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+b0 >
+bx =
+b100 <
+b0 ;
+b100 :
+bx 9
+x8
+b100 7
+bx 6
+bx 5
+x4
+bx 3
+bx 2
+x1
+x0
+x/
+bx .
+bx -
+b0 ,
+bx +
+bx *
+bx )
+x(
+bx '
+x&
+bx %
+b0 $
+b0 #
+1"
+1!
+$end
+#10
+0!
+#20
+1!
+#30
+0!
+#40
+1!
+#50
+0!
+0"
+#60
+bx 7
+bx <
+bx W
+bx ,
+bx ;
+bx >
+bx P
+bx ]
+1!
+#70
+0!
+#80
+1!
+#90
+0!
+#100
+1!
+#110
+0!
+#120
+1!
+#130
+0!
+#140
+1!
+#150
+0!
+#160
+1!
+#170
+0!
+#180
+1!
+#190
+0!
+#200
+1!
+#210
+0!
+#220
+1!
+#230
+0!
+#240
+1!
+#250
+0!
+#260
+1!
+#270
+0!
+#280
+1!
+#290
+0!
+#300
+1!
+#310
+0!
+#320
+1!
+#330
+0!
+#340
+1!
+#350
+0!
+#360
+1!
+#370
+0!
+#380
+1!
+#390
+0!
+#400
+1!
+#410
+0!
+#420
+1!
+#430
+0!
+#440
+1!
+#450
+0!
+#460
+1!
+#470
+0!
+#480
+1!
+#490
+0!
+#500
+1!
+#510
+0!
+#520
+1!
+#530
+0!
+#540
+1!
+#550
+0!
+#560
+1!
+#570
+0!
+#580
+1!
+#590
+0!
+#600
+1!
+#610
+0!
+#620
+1!
+#630
+0!
+#640
+1!
+#650
+0!

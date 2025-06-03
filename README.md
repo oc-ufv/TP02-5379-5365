@@ -1,0 +1,2 @@
+# TP02OC
+Esta documentação descreve o desenvolvimento e os resultados implementação de uma versão simplificada do caminho de dados do RISC-V. O projeto requer um subconjunto funcional da arquitetura RISC-V, designado especificamente para o grupo, que irá simular o caminho de dados, gerenciando automaticamente o ciclo de clock e capturando o estado de todos os 32 registradores. A simulação imprime os valores dos registradores no terminal, permitindo a verificação da execução correta das instruções.
