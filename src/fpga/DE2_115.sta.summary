@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'KEY[0]'
+Slack : -15.059
+TNS   : -54413.083
+
+Type  : Slow 1200mV 85C Model Setup 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -3.727
+TNS   : -3.727
+
+Type  : Slow 1200mV 85C Model Hold 'KEY[0]'
+Slack : -1.973
+TNS   : -3.907
+
+Type  : Slow 1200mV 85C Model Hold 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : 2.977
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -4.109
+TNS   : -4.109
+
+Type  : Slow 1200mV 85C Model Removal 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -0.929
+TNS   : -0.929
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -5317.760
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'KEY[0]'
+Slack : -13.780
+TNS   : -49591.307
+
+Type  : Slow 1200mV 0C Model Setup 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -3.339
+TNS   : -3.339
+
+Type  : Slow 1200mV 0C Model Hold 'KEY[0]'
+Slack : -1.819
+TNS   : -3.604
+
+Type  : Slow 1200mV 0C Model Hold 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : 2.741
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -3.663
+TNS   : -3.663
+
+Type  : Slow 1200mV 0C Model Removal 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -0.848
+TNS   : -0.848
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -5317.760
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'KEY[0]'
+Slack : -6.983
+TNS   : -24739.590
+
+Type  : Fast 1200mV 0C Model Setup 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -2.037
+TNS   : -2.037
+
+Type  : Fast 1200mV 0C Model Hold 'KEY[0]'
+Slack : -1.376
+TNS   : -3.069
+
+Type  : Fast 1200mV 0C Model Hold 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : 2.143
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -2.269
+TNS   : -2.269
+
+Type  : Fast 1200mV 0C Model Removal 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : -0.428
+TNS   : -0.428
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -3.000
+TNS   : -4998.613
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'datapath:datapathFPGA|pc:pcDP|pcOut[2]'
+Slack : 0.398
+TNS   : 0.000
+
+------------------------------------------------------------

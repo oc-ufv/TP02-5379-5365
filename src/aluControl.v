@@ -18,7 +18,5 @@ module aluControl (
                 3'b001: aluControlreg <= 4'b0100; //sll
             endcase
         endcase
-
-
     end
 endmodule
